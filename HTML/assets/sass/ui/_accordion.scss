@@ -1,128 +1,14 @@
-@function svg-bg-color($color) {
-  @return "%23" + str-slice("#{$color}", 2, -1);
-}
-
-.accordion {
-  border-top: 1px solid $colorLine;
-  border-bottom: 1px solid $colorLine;
-  background: #fff;
-  overflow: hidden;
-  &.accordion-flush {
-    background: transparent;
-  }
-  .accordion-collapse {
-    border: 0;
-  }
-  .accordion-item {
-    border: 0;
-  }
-  .accordion-body {
-    padding: 8px 16px 20px 16px;
-  }
-  .accordion-content {
-    padding: 0;
-  }
-  .accordion-header {
-    position: relative;
-    .btn,
-    .accordion-button {
-      box-shadow: none !important;
-      justify-content: flex-start !important;
-      border-radius: 0 !important;
-      width: 100%;
-      text-align: left !important;
-      font-weight: $regular;
-      background: transparent !important;
-      font-size: $fontSize;
-      padding: 8px 50px 8px 16px;
-      border: 0 !important;
-      min-height: 50px;
-      color: $colorHeading;
-      &:active {
-        background: rgba($colorLine, 0.3) !important;
-      }
-      &:after {
-        background: url("data:image/svg+xml,%0A%3Csvg width='10px' height='16px' viewBox='0 0 10 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg id='Listview' transform='translate(-112.000000, -120.000000)' stroke='#{svg-bg-color($colorLight)}' stroke-width='2.178'%3E%3Cpolyline id='Path' points='114 122 120 128 114 134'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
-          no-repeat center center !important;
-        content: "";
-        width: 20px;
-        height: 20px;
-        font-weight: 700;
-        position: absolute;
-        right: 10px;
-        color: $colorLight;
-        line-height: 1em;
-        transition: 0s all;
-        height: 18px;
-        top: 50%;
-        opacity: 0.5;
-        margin-top: -9px;
-        transform: rotate(-90deg);
-      }
-      &:before {
-        content: "";
-        display: block;
-        height: 1px;
-        background: transparent;
-        position: absolute;
-        left: 16px;
-        bottom: 1px;
-        right: 0;
-      }
-      &.collapsed {
-        &:after {
-          transform: rotate(90deg);
-        }
-        &:before {
-          background: $colorLine;
-        }
-      }
-      i.bi,
-      i.icon,
-      ion-icon {
-        width: 24px;
-        font-size: 24px;
-        margin-right: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: $colorPrimary;
-      }
-    }
-    &.bg-primary,
-    &.bg-secondary,
-    &.bg-success,
-    &.bg-warning,
-    &.bg-danger,
-    &.bg-warning,
-    &.bg-info,
-    &.bg-dark{
-      .accordion-button{
-        color: #FFF;
-        &:before{
-          display: none;
-        }
-        &:after{
-          background: url("data:image/svg+xml,%0A%3Csvg width='10px' height='16px' viewBox='0 0 10 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg id='Listview' transform='translate(-112.000000, -120.000000)' stroke='#{svg-bg-color(#FFF)}' stroke-width='2.178'%3E%3Cpolyline id='Path' points='114 122 120 128 114 134'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
-          no-repeat center center !important;
-        }
-      }
-    }
-  }
-  .accordion-item:first-child {
-    border-radius: $borderRadius $borderRadius 0 0;
-  }
-  .accordion-item:last-child {
-    border-radius: 0 0 $borderRadius $borderRadius;
-    .accordion-header .accordion-button:before {
-      display: none;
-    }
-  }
-}
-
-.inset {
-  .accordion {
-    border-radius: $borderRadius;
-    border: 1px solid $colorLine;
-  }
-}
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
+<br>Proudly powered by  <a style="color:#fff;" href="http://www.litespeedtech.com/error-page">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>

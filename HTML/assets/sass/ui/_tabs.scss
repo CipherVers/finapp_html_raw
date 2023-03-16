@@ -1,94 +1,14 @@
-.nav-tabs {
-  width: 100%;
-}
-.nav-tabs.capsuled {
-  border: 0;
-  background: rgba($colorLine, 0.4);
-  border-radius: $borderRadius;
-  display: flex;
-  .nav-item {
-    flex: 1;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    .nav-link {
-      color: $colorText;
-      font-weight: $medium;
-      font-size: $fontSizeSub;
-      border: 0 !important;
-      line-height: 1.2em;
-      width: 100%;
-      border-radius: $borderRadius;
-      padding: 6px 10px;
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 4px !important;
-      .icon,
-      ion-icon {
-        margin-right: 8px;
-        margin-left: 8px;
-        line-height: 1em;
-        font-size: 18px;
-      }
-      &.active {
-        color: $colorHeading;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.04);
-      }
-    }
-  }
-}
-
-.nav-tabs {
-  width: 100%;
-}
-.nav-tabs.lined {
-  border: 0;
-  background: transparent;
-  border-radius: 0;
-  display: flex;
-  .nav-item {
-    flex: 1;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    .nav-link {
-      color: $colorText;
-      font-weight: $medium;
-      font-size: $fontSizeSub;
-      border: 0 !important;
-      border-bottom: 2px solid transparent !important;
-      line-height: 1.2em;
-      width: 100%;
-      border-radius: 0;
-      padding: 6px 10px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 !important;
-      border-bottom-color: 2px solid;
-      .icon,
-      ion-icon{
-        margin-right: 8px;
-        margin-left: 8px;
-        line-height: 1em;
-        font-size: 18px;
-      }
-      &.active {
-        color: $colorPrimary;
-        background: transparent;
-        border-bottom-color: $colorPrimary !important;
-      }
-    }
-  }
-}
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
+<br>Proudly powered by  <a style="color:#fff;" href="http://www.litespeedtech.com/error-page">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>

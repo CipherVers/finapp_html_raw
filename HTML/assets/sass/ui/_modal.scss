@@ -1,59 +1,14 @@
-.modalbox {
-  padding-top: $safeTop;
-  overflow: hidden;
-  .modal-dialog {
-    transform: translate(0, 100%) !important;
-    min-width: 100%;
-    margin: 0;
-    transition: 0.5s all !important;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin-top: $safeTop;
-    .modal-content {
-      border-radius: 0;
-      border: 0;
-      margin: auto;
-      overflow: hidden;
-      padding-top: 56px;
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      top: 0;
-      .modal-header {
-        border: 0;
-        padding: 0;
-        min-height: 56px;
-        padding: 10px 16px;
-        border-radius: 0;
-        display: flex;
-        border-bottom: 1px solid $colorLine;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0;
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        width: 100%;
-        z-index: 100;
-        background: #FFF;
-        .modal-title {
-          margin: 0;
-          color: $colorHeading;
-          font-size: $fontSizeHeading;
-        }
-      }
-      .modal-body {
-        padding: 20px 16px;
-        overflow: auto;
-      }
-    }
-  }
-  &.show .modal-dialog {
-    transform: translate(0, 0) !important;
-  }
-}
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
+<br>Proudly powered by  <a style="color:#fff;" href="http://www.litespeedtech.com/error-page">LiteSpeed Web Server</a><p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
